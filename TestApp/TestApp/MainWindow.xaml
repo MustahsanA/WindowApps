@@ -1,0 +1,11 @@
+﻿<Window x:Class="TestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:pdfview="clr-namespace:Meddiff.Common.PdfViewer;assembly=Meddiff.Common.PdfViewer"
+        xmlns:wordview="clr-namespace:Meddiff.Common.WordViewer;assembly=Meddiff.Common.WordViewer"
+        Title="MainWindow" Height="350" Width="525" ResizeMode="CanResizeWithGrip" WindowState="Maximized">
+    <DockPanel  LastChildFill="True" Background="Aqua">
+        <!--<pdfview:PdfViewer x:Name="PDFViewer"/>-->
+        <wordview:WordViewer x:Name="wordViewer"/>
+    </DockPanel>
+</Window>
